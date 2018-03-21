@@ -6,8 +6,16 @@ body {
     margin-left: 20vw;
 } */
 
+
+img {
+    height: 27px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 85px;
+}
+
 .top-level {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 25px;
 }
 
@@ -16,18 +24,28 @@ body {
     padding-top: 10px;
     padding-bottom: 13px;
     border-bottom: 1px solid rgba(0,0,0,0.2);
-    width: 250px;
+    width: 230px;
     text-align: center;
 }
+
+/* #reg:hover{
+    border: none;
+    border-bottom: 1px solid blue;
+} */
 
 #log{
     display: inline-block;
     padding-top: 10px;
     padding-bottom: 13px;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
-    width: 250px;
+    border-bottom: 1px solid blue;
+    width: 230px;
     text-align: center;
 }
+
+/* #log:hover{
+    border: none;
+    border-bottom: 1px solid blue;
+} */
 
 .custom-field {
     width: 500px;
@@ -88,9 +106,15 @@ body {
     vertical-align: middle;
     line-height: 50px;
     padding-left: 40px;
-    font-size: 18px;
+    font-size: 15px;
+    transition: -webkit-transform 0.6s, transform 0.6s, box-shadow 0.6s;
 }
 
+.social:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
 
 #first-social {
     background-color: rgba(0,0,255,1);
@@ -105,19 +129,23 @@ body {
 }
 
 #first-social-child {
-    padding-right: 65px;
+    padding-right: 85px;
 }
 
 #second-social-child {
-    padding-right: 80px;
+    padding-right: 100px;
 }
 
 #second-page-first-line {
-    margin-top: 172px;
+    margin-top: 123px;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* when page loads, give the login page a display of none */
-#flexi-2 {
+#flexi-1 {
     display: none;
 }
 
