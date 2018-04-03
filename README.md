@@ -1,2 +1,2 @@
 # getbarter-copy
-A poor imitation of the getbarter.co website.
+A simple imitation of the getbarter.co website.
